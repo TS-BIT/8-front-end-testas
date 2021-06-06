@@ -11,16 +11,16 @@ body {
 }
 
 main {
- display: block;
- width: 100vh;
+ display: inline;
+ width: 60%;
  height: 100vh;
  top: 0;
  left: 0;
  }
 
 .left-column {
-    display: block;
-    width: 45%;
+    display: inline;
+    width: 40%;
     height: 100vh;
     float: left;
 }
