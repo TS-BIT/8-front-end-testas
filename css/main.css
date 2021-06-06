@@ -11,26 +11,29 @@ body {
 }
 
 main {
- display: inline-block;
+ display: block;
  width: 100vh;
- position: relative;
+ height: 100vh;
  top: 0;
  left: 0;
- transform: translate(0, 0);
-}
+ }
 
 .left-column {
- width: 10%;
- float: left;
- padding: 40px;
- background-color: #ccc;
- color: #fff;
- background-image: url(../img/fcuksense.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: left;
- filter: blur(40px);
+    display: block;
+    width: 45%;
+    height: 100vh;
+    float: left;
 }
+
+
+.right-column {
+    display: block;
+    width: 55%;
+    height: 100vh;
+    float: right;
+}
+
+
 
 .bottom-links {
 }
